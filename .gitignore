@@ -1,0 +1,58 @@
+# .gitignore for a Java project
+# Ignore compiled class files and bin output
+/bin/
+/out/
+*.class
+
+# Build directories (Maven/Gradle)
+/target/
+/build/
+.gradle/
+
+# IntelliJ IDEA
+/.idea/
+*.iml
+*.iws
+
+# Eclipse
+.settings/
+.classpath
+.project
+
+# VS Code
+.vscode/
+
+# Maven wrapper and local caches
+/.mvn/
+.m2/
+
+# Dependency jars and packaged archives
+*.jar
+*.war
+*.ear
+
+# Logs, temp files, and IDE swap files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment and local config
+.env
+local.properties
+
+# Coverage and reports
+/coverage/
+/reports/
+
+# Others
+node_modules/
+.DS_Store
+
+# Keep source and project files tracked
+!src/
